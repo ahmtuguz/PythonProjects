@@ -1,0 +1,26 @@
+import numpy as np
+array=np.array((10,15,30,45,60))
+array=np.arange(50,100,5)
+array=np.ones(10)
+array=np.linspace(0,100,5)
+array=np.random.randint(10,30,5)
+array=np.random.randn(10)
+array=np.random.randint(10,50,15)
+array=array.reshape(3,5)
+#array=array.sum(axis=1)
+#array=array.sum(axis=0)
+#array=array.max()
+#array=array.min()
+#array=array.mean()
+array=np.arange(10,20)
+array=array.reshape(2,5)
+#result=array[0:3]
+#result=array[::-1]
+result=array[0,:]
+result=array[1,2]
+result=array**2
+array=np.arange(-50,50)
+array=array.reshape(10,10)
+result=array>0
+print(array)
+print(result)
